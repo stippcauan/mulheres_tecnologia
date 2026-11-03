@@ -1,5 +1,5 @@
 body { 
-    background-color: red;
+    background-color: rgb(22, 228, 159);
     font-size: 16px;
 }
 
@@ -56,4 +56,19 @@ footer{
      font-size: 30px;
      width: 100%;
      text-align: center;
+}
+
+.menu{
+list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.texto{
+    flex: 1;
+    align-self: center;
+    padding: 0 20px;
+    max-width: 70ch;
 }
